@@ -7,7 +7,7 @@ SUDOUSER=$2
 # Update system to latest packages and install dependencies
 echo $(date) " - Update system to latest packages and install dependencies"
 
-yum -y install wget git net-tools bind-utils iptables-services bridge-utils bash-completion httpd-tools
+yum -y install wget git net-tools bind-utils iptables-services bridge-utils bash-completion httpd-tools samba-client samba-common cifs-utils
 yum -y update --exclude=WALinuxAgent
 
 # Install EPEL repository
