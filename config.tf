@@ -140,19 +140,19 @@ variable "openshift_azure_default_subdomain" {
 variable "openshift_azure_master_prep_script" {
   type        = "string"
   description = "URL for Master Prep script"
-  default     = "https://raw.githubusercontent.com/sozercan/OpenShift-Azure-Terraform/master/scripts/masterPrep.sh"
+  default     = "https://raw.githubusercontent.com/bgelens/OpenShift-Azure-Terraform/master/scripts/masterPrep.sh"
 }
 
 variable "openshift_azure_node_prep_script" {
   type        = "string"
   description = "URL for Node Prep script"
-  default     = "https://raw.githubusercontent.com/sozercan/OpenShift-Azure-Terraform/master/scripts/nodePrep.sh"
+  default     = "https://raw.githubusercontent.com/bgelens/OpenShift-Azure-Terraform/master/scripts/nodePrep.sh"
 }
 
 variable "openshift_azure_deploy_openshift_script" {
   type        = "string"
   description = "URL for Deploy Openshift script"
-  default     = "https://raw.githubusercontent.com/sozercan/OpenShift-Azure-Terraform/master/scripts/deployOpenShift.sh"
+  default     = "https://raw.githubusercontent.com/bgelens/OpenShift-Azure-Terraform/master/scripts/deployOpenShift.sh"
 }
 
 variable "openshift_ansible_url" {
